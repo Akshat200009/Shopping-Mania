@@ -1391,20 +1391,26 @@ a #pro-details .single-pro-details {
 
 }
 
+@media (max-width:379px){
+
+    
+}
+
 @media (max-width:400px){
 
-    #Feature .fe-box{
-        margin: auto;
-
+    #Feature {
+        justify-content: space-between;
+        align-items: center;
     }
 
-    footer .col-install .row img,
-    footer .col-install .install img {
+    #Feature .fe-box {
+        width: 150px;
+        height: 180px;
+        margin-left: auto;
+        align-items: center;
+        justify-content: space-between;
 
-
-        display: none;
-    }   
-    
+    } 
 }
 
 @media (max-width:477px) {
